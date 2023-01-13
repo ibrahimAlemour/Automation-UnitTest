@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90sdp"
+    android:elevation="@dimen/_8sdp"
+    android:layout_margin="@dimen/_6sdp"
+    app:cardCornerRadius="@dimen/_8sdp">
+
+    <LinearLayout
+        android:id="@+id/lineAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_94sdp"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:padding="@dimen/_6sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Plant"
+                android:gravity="center|left"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/chivo_regular"
+                android:textColor="@color/purple_200"/>
+
+            <TextView
+                android:id="@+id/tvPlantName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:text="Name Plant"
+                android:gravity="center|left"
+                android:textSize="@dimen/_15ssp"
+                android:fontFamily="@font/chivo_regular"
+                android:textColor="@color/purple_500"/>
+            <TextView
+                android:id="@+id/tvPlantType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="l"
+                android:gravity="center|left"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/chivo_regular"
+                android:textColor="@color/purple_500"/>
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgLocations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:src="@drawable/ic_baseline_location_on_24"/>
+
+        <TextView
+            android:id="@+id/tvFinished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finished"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:gravity="center|left"
+            android:layout_margin="@dimen/_8sdp"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/chivo_regular"
+            android:textColor="@color/purple_500"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

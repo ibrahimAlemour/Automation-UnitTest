@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".doctors.DoctorsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        android:background="@color/purple_700"
+        android:padding="@dimen/_8sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Control Panel"
+            android:fontFamily="@font/chivo_regular"
+            android:textSize="@dimen/_19ssp"
+            android:textColor="@color/white"/>
+
+
+
+        <ImageView
+            android:id="@+id/imgSignOut"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_signout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_8sdp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعديل"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:background="@drawable/btn_style"
+            android:layout_margin="@dimen/_8sdp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:visibility="gone"/>
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="رقم الهاتف"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_margin="@dimen/_8sdp"
+            android:gravity="right|center"
+            android:background="@drawable/et_style"
+            android:padding="@dimen/_8sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgEmergencies"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:src="@drawable/ic_alarm2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergencies"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/purple_500"
+            android:fontFamily="@font/reem"/>
+
+        <ImageView
+            android:id="@+id/imgPatient"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:src="@drawable/ic_coronaicon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patients"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/reem"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgMedicalConsultation"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_75sdp"
+                android:src="@drawable/ic__health_medical_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical Advice"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/reem"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tint="@android:color/white"
+            android:contentDescription="التواصل مع مسؤول التطبيق"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            android:layout_margin="@dimen/_16sdp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

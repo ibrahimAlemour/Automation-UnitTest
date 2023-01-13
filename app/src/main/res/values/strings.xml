@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstAidApp</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_doctor">MapsActivityDoctor</string>
+</resources>

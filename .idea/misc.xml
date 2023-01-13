@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable-v24/et_style2.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable-v24/ic_baseline_person_w.xml" value="0.2015" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable-v24/img_style.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/btn_style.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/dialog_bg.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/et_style.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic__call_messages_whatsapp_chat_icon.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic__health_medical_icon.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_alarm.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_alarm2.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_anatomy_blood.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_age_24.xml" value="0.198" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_military_tech_24.xml" value="0.144" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_person_2.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_blood.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_blood_icon.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_coronaicon.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_irst_aid.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_next.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/drawable/ic_signout.xml" value="0.142" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_add_advanc.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_advance.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_detl_patient.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_doctors.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_emergencies.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_maps_doctor.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_my_information.xml" value="0.25" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_patents.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_sign_up_secound.xml" value="0.22" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/img_dialog.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/item_adv.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/item_alarm.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects2022/FirstAidApp/app/src/main/res/layout/item_alarm2.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyInformation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:orientation="horizontal"
+                android:gravity="center|left"
+                android:background="@color/purple_700"
+                android:padding="@dimen/_8sdp">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Information"
+                    android:textSize="@dimen/_18ssp"
+                    android:fontFamily="@font/reem"
+                    android:textColor="@color/white"
+
+                    />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/etBlood"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Blood type"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_blood"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etChronic"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Chronic diseases"
+                android:inputType="text"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_anatomy_blood"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etAllergy"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Allergy"
+                android:inputType="text"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_blood_icon"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Age"
+                android:inputType="number"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_age_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Phone"
+                android:inputType="number"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etIdNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="id"
+                android:inputType="number"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_height_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Location"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:visibility="gone"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEdit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_15ssp"
+                android:padding="@dimen/_8sdp"
+                android:text="Save Edit"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:visibility="visible"
+                android:background="@drawable/btn_style"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

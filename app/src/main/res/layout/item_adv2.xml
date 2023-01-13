@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="@dimen/_210sdp"
+    android:elevation="@dimen/_8sdp"
+    android:layout_margin="@dimen/_6sdp"
+    app:cardCornerRadius="@dimen/_8sdp">
+
+    <LinearLayout
+        android:id="@+id/lineAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/_210sdp"
+        android:gravity="center|left"
+        android:layout_margin="@dimen/_4sdp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:padding="@dimen/_6sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_140sdp"
+                android:orientation="vertical"
+                android:background="@drawable/et_style"
+                android:padding="@dimen/_4sdp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgAdvance"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_176sdp"
+                    android:visibility="gone"
+                    android:background="@drawable/img_style" />
+
+                <ProgressBar
+                    android:id="@+id/pBarLoad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/tvPathImg"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Plant Cultivation"
+                    android:fontFamily="@font/chivo_regular"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/white"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPlantName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:text="Name Plant"
+                android:gravity="center|left"
+                android:textSize="@dimen/_15ssp"
+                android:fontFamily="@font/chivo_regular"
+                android:textColor="@color/purple_500"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvPlantType"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Type Plant"
+                    android:maxLines="3"
+                    android:maxHeight="@dimen/_50sdp"
+                    android:gravity="center|left"
+                    android:textSize="@dimen/_12ssp"
+                    android:fontFamily="@font/chivo_regular"
+                    android:textColor="@color/purple_200"/>
+
+                <ImageView
+                    android:id="@+id/imgYoutube"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_play_video_youtube_icon"/>
+
+                <ImageView
+                    android:id="@+id/imgEdit"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_baseline_edit_24"/>
+
+
+                <ImageView
+                    android:id="@+id/imgDelete"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_baseline_delete_forever_24"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

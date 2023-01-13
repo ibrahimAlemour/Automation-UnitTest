@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_350sdp"
+                tools:layout="@layout/activity_maps" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_43sdp"
+                android:orientation="horizontal"
+                android:background="@color/purple_700"
+                android:padding="@dimen/_8sdp">
+
+                <ImageView
+                    android:visibility="visible"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:src="@drawable/ic_baseline_person_w"/>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Patient name"
+                    android:fontFamily="@font/chivo_regular"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/white"/>
+
+
+                <TextView
+                    android:id="@+id/tvCall"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Patient name"
+                    android:fontFamily="@font/chivo_regular"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Location"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <Spinner
+                android:id="@+id/spStatus"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"/>
+
+
+            <EditText
+                android:id="@+id/etDetail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:hint="Write Patient case details..."
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|top"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textColorHint="#777775"
+                android:textColor="@color/black"
+                android:background="@drawable/et_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnUploadAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_15ssp"
+                android:padding="@dimen/_8sdp"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_14sdp"
+                android:background="@drawable/btn_style"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

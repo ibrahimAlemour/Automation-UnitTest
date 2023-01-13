@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_4sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/et_style"
+        android:gravity="center">
+
+
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imgAdvance"
+            android:layout_width="@dimen/_248sdp"
+            android:layout_height="@dimen/_158sdp"
+            android:src="@drawable/logoeid"
+            android:visibility="gone"
+            android:background="@drawable/img_style" />
+
+        <ProgressBar
+            android:id="@+id/pBarLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

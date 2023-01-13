@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration.SignUpSecound">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imLogo"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:src="@drawable/logoeid"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Information"
+                    android:textSize="@dimen/_24ssp"
+                    android:fontFamily="@font/reem"
+                    android:textColor="@color/purple_500"
+
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etIdNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="ID Number"
+                android:inputType="number"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_military_tech_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:orientation="horizontal"
+                android:background="@drawable/et_style">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_blood"/>
+
+
+                <Spinner
+                    android:id="@+id/spBoold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etChronic"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Chronic diseases"
+                android:inputType="text"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_anatomy_blood"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etAllergy"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Allergy"
+                android:inputType="text"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_blood_icon"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Family member's phone number"
+                android:inputType="phone"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@drawable/et_style">
+
+                    <Spinner
+                        android:id="@+id/spGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/_40sdp"
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@drawable/et_style">
+                    <TextView
+                        android:id="@+id/etAge"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@drawable/et_style"
+                        android:hint="Age"
+                        android:textColorHint="@color/purple_200"
+                        android:gravity="center"
+                        android:textSize="@dimen/_14ssp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Location"
+                android:textSize="@dimen/_14ssp"
+                android:padding="@dimen/_8sdp"
+                android:gravity="left|center"
+                android:visibility="gone"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColorHint="@color/purple_200"
+                android:background="@drawable/et_style"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_15ssp"
+                android:padding="@dimen/_8sdp"
+                android:text="Register "
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/btn_style"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
